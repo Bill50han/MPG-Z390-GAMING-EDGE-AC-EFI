@@ -1,7 +1,9 @@
 # MPG-Z390-GAMING-EDGE-AC-EFI
 A hackintosh EFI for MSI MPG Z390 GAMING EDGE AC (use opencore).
 
-# 测试过的可用系统: MacOS 10.15
+下载/Download见release
+## 测试过的可用系统: MacOS 10.15
+
 # 配置及情况
 CPU: Intel core i7 9700k <br>
 GPU: Intel UHD630 <br>
