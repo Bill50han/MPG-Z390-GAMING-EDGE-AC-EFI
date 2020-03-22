@@ -1,0 +1,2 @@
+# MPG-Z390-GAMING-EDGE-AC-EFI
+A hackintosh EFI for MSI MPG Z390 GAMING EDGE AC (use opencore).
