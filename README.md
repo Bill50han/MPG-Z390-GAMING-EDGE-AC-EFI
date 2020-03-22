@@ -1,7 +1,9 @@
 # MPG-Z390-GAMING-EDGE-AC-EFI
 A hackintosh EFI for MSI MPG Z390 GAMING EDGE AC (use opencore).
 
-下载/Download见release
+下载/Download见release 
+### 请一定要先读完整个readme再下载安装！！
+
 ## 测试过的可用系统: MacOS 10.15
 
 # 配置及情况
@@ -34,6 +36,7 @@ Realtek ALC1220: Yes
 强烈建议在安装前制作一个peU盘来以防万一，因为我在配置完OC后发现win10的bcd没了。如果使用黑果小兵最新的镜像安装的话，安装u盘自带了一个微pe。总之，不怕一万，就怕万一。<br>
 
 我这个EFI完全是我自己参考xjn大神的博客配置的，并没有考虑其他任何硬件。所以不建议cpu，主板，显卡和我不一样的配置不修改EFI直接使用。<br>
+## 并且因为我的电脑上有一块rtx2080，所以我在/NVRAM/Add/7C436110-AB2A-4BBB-A880-FE41995C9F82/boot-args下增加了-wegnoegpu,使用amd免驱卡的用户请删掉上述内容（这个位置就是opencore的开机启动选项设置）
 
 此EFI包含intel无线网卡蓝牙部分的kext驱动。<br>
 
