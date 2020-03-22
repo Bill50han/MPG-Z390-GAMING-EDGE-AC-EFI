@@ -1,6 +1,7 @@
 # MPG-Z390-GAMING-EDGE-AC-EFI
 A hackintosh EFI for MSI MPG Z390 GAMING EDGE AC (use opencore).
 
+# 测试过的可用系统: MacOS 10.15
 # 配置及情况
 CPU: Intel core i7 9700k <br>
 GPU: Intel UHD630 <br>
@@ -24,7 +25,7 @@ Realtek ALC1220: Yes
 
 # 注意
 - 请将OC文件夹放在EFI分区的EFI文件夹内
-- ## 请在使用前自行修改白果4码，建议机型iMac19,1。修改位置为: config.plist内的/PlatformInfo/Generic/ 注意这里的所有空白都需要填写,可使用clover configurator生成
+- ## 请在使用前自行修改白果4码，建议机型iMac19,1。修改位置为: config.plist内的/PlatformInfo/Generic/ 注意这里所有的空白都需要填写。填写内容可使用clover configurator生成
 - windows下添加引导项时请添加OC文件夹下的BOOTx64.efi而非OpenCore.efi
 
 # 特别注意
@@ -41,7 +42,7 @@ Realtek ALC1220: Yes
 [精解OpenCore -黑果小兵](https://blog.daliansky.net/OpenCore-BootLoader.html) <br>
 [OpenCore 驱动 z390 主板原生 NVRAM -醉渔](https://blog.zuiyu1818.cn/posts/z390_NVRAM.html) <br>
 [黑苹果关机不断电怎么解决？--5楼内容](http://bbs.pcbeta.com/viewthread-1793291-1-1.html) <br>
-[intel蓝牙](https://github.com/zxystd/IntelBluetoothFirmware)
+[intel蓝牙 -zxystd](https://github.com/zxystd/IntelBluetoothFirmware)
 
 # 其他
 Q: 为啥不配独立显卡? <br>
