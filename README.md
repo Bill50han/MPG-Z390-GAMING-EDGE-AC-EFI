@@ -21,8 +21,8 @@ USB: 使用通用驱动，未定制 <br>
 Realtek ALC1220: Yes
 
 # BIOS
-- CFG Lock -> 禁止/Disable (高级模式 -> OC -> CPU模式: 改为专业模式 -> CPU特征 -> CFG锁定)
-- Erp -> 允许/Enable
+- CFG Lock -> 禁止/Disable (高级模式 -> OC -> OC操作模式: 改为专业 -> CPU特征 -> CFG锁定)
+- ErP Ready -> 允许/Enable
 - CSM -> 禁止/Disabled
 - XHCI Hand-off -> 允许/Enabled
 - 安全启动/security boot -> 禁止/Disabled
