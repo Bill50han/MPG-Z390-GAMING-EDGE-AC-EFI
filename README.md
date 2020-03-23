@@ -40,6 +40,8 @@ Realtek ALC1220: Yes
 我这个EFI完全是我自己参考xjn大神的博客配置的，并没有考虑其他任何硬件。所以不建议cpu，主板，显卡和我不一样的配置不修改EFI直接使用。  
 ## 并且因为我的电脑上有一块rtx2080，所以我在/NVRAM/Add/7C436110-AB2A-4BBB-A880-FE41995C9F82/boot-args下增加了-wegnoegpu,使用amd免驱卡的用户请删掉上述内容（这个位置就是opencore的开机启动选项设置）
 
+### 此EFI默认不检测除MacOS外的任何系统的引导程序，也就是它不能引导windows。我也不建议用opencore引导windows。
+
 此EFI包含intel无线网卡蓝牙部分的kext驱动。
 
 另: 使用黑果小兵的镜像安装时, 也别忘了将EFI替换成这个哟。
