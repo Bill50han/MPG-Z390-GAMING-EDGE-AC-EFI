@@ -14,7 +14,7 @@ GPU: Intel UHD630
 Intel Ethernet Connection I219-V: Yes  
 Intel(R) Wireless-AC 9462: 
 - WIFI: NO
-- Bluetooth: Yes (不用从Windows热启动)  
+- Bluetooth: Yes (不需要从windows热启动)  
 
 USB: 使用通用驱动，未定制  
 节能五项: Yes  
