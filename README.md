@@ -21,7 +21,7 @@ Intel(R) Wireless-AC 9462:
 USB: 使用通用驱动，未定制  
 节能五项: Yes  
 原生NVRAM: Yes  
-Realtek ALC1220: Yes
+Realtek ALCS1220A: Yes
 
 # BIOS
 - CFG Lock -> 禁止/Disable (高级模式 -> OC -> OC操作模式: 改为专业 -> CPU特征 -> CFG锁定)
