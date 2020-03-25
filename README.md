@@ -5,7 +5,9 @@ A hackintosh EFI for MSI MPG Z390 GAMING EDGE AC (use opencore).
 
 ## ___请一定要先读完整个readme再下载安装！！___
 
-### 测试过的可用系统: MacOS 10.15.3
+### 测试过的可用系统: 
+1. MacOS 10.15.3
+2. MacOS 10.15.4
 
 # 配置及情况
 CPU: Intel core i7 9700k  
