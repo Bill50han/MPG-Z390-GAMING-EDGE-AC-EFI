@@ -57,6 +57,8 @@ Realtek ALCS1220A: Yes
 [intel蓝牙 -zxystd](https://github.com/zxystd/IntelBluetoothFirmware)
 
 # 其他
+推荐一款开源软件，可以再macOS下调节外接显示器的亮度和音量：[MonitorControl](https://github.com/the0neyouseek/MonitorControl/releases)
+
 Q: 为啥不配独立显卡?  
 A: RTX2080无解
 
