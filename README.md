@@ -3,7 +3,7 @@ A hackintosh EFI for MSI MPG Z390 GAMING EDGE AC (use opencore).
 
 下载见release/Download see release
 
-## ___请一定要先读完整个readme再下载安装！！___
+## ___请一定要先读完整个readme再下载安装！！___ 特别重点：本efi从1.3开始使用了官方加密，请使用镜像自带EFI安装系统，并在安装好系统后再配置使用此EFI，并参照[此教程](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/post-install/post-install/security#vault)重新加密引导
 
 ### 测试过的可用系统: 
 1. MacOS 10.15.3
@@ -29,12 +29,12 @@ Realtek ALCS1220A: Yes
 - CSM -> 禁止/Disabled
 - XHCI Hand-off -> 允许/Enabled
 - 安全启动/security boot -> 禁止/Disabled
-- 如果你也和我一样，有一张不能驱动的n卡插在主板上，那么请在切换系统时更改"设置第一显卡"。使用MacOS时用核显，选择IGD;使用win时用独显，选择PEG。如果你有更好的方法，请一定通过Issues告诉我，因为我这个方法挺麻烦的。 /捂脸笑 ~~另:选择PEG并打开核心显卡多显示器在我这并不好用，因为这项设置在我这台电脑上只在windows下生效。~~
+- 如果你也和我一样，有一张不能驱动的n卡插在主板上，那么请在切换系统时更改"设置第一显卡"。使用MacOS时用核显，选择IGD;使用win时用独显，选择PEG。如果你有更好的方法，请一定通过Issues告诉我，因为我这个方法挺麻烦的。😂 ~~另:选择PEG并打开核心显卡多显示器在我这并不好用，因为这项设置在我这台电脑上只在windows下生效。~~
 - 补充上面那一条：我又测试了一下，上面划掉的方法实际可行，但需要在显示器上进行切换，而且这样做MacOS会识别不到任何显卡，不过功能~~正常~~关机花屏。
 
 # 注意
 - 请将OC文件夹放在EFI分区的EFI文件夹内
-- ## 请在使用前自行修改白果4码，建议机型iMac19,1。修改位置为: config.plist内的/PlatformInfo/Generic/ 注意这里所有的空白都需要填写。填写内容可使用clover configurator生成
+- ## 请在使用前自行修改白果3码（systemuuid请往下看），建议机型iMac19,1。修改位置为: config.plist内的/PlatformInfo/Generic/ 注意这里所有的空白都需要填写。填写内容可使用clover configurator生成
 - windows下添加引导项时请添加OC文件夹下的BOOTx64.efi而非OpenCore.efi
 
 # 特别注意
@@ -43,7 +43,9 @@ Realtek ALCS1220A: Yes
 我这个EFI完全是我自己参考xjn大神的博客配置的，并没有考虑其他任何硬件。所以不建议cpu，主板，显卡和我不一样的配置不修改EFI直接使用。  
 ## 并且因为我的电脑上有一块rtx2080，所以我在/NVRAM/Add/7C436110-AB2A-4BBB-A880-FE41995C9F82/boot-args下增加了-wegnoegpu,使用amd免驱卡的用户请删掉上述内容（这个位置就是opencore的开机启动选项设置）
 
-### 此EFI默认不检测除MacOS外的任何系统的引导程序，也就是它不能引导windows。我也不建议用opencore引导windows。请使用bios自带的F11或者第三方引导程序rEFInd等切换系统。
+### ~~此EFI默认不检测除MacOS外的任何系统的引导程序，也就是它不能引导windows。我也不建议用opencore引导windows。请使用bios自带的F11或者第三方引导程序rEFInd等切换系统。~~ OC引导win10真香😂。具体方法请看[1](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1851361&highlight=oc%2Bwin)，2：xjn大佬博客那篇文章3.2.2章节的“打开config，我们把win的引导路径添加到misc—-entries······”以下的内容。（“1”里面的“硬盘id”就是DG分区软件里的“分区GUID”，所以不用完全按照xjn的步骤走）
+
+### 因为使用了oc引导win，所以机器信息里的systemuuid需要使用主板原来的uuid，具体查看方法：[查看SystemUUID](https://blog.csdn.net/fksec/article/details/45396119)
 
 此EFI包含intel无线网卡蓝牙部分的kext驱动。
 
