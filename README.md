@@ -3,7 +3,7 @@ A hackintosh EFI for MSI MPG Z390 GAMING EDGE AC (use opencore).
 
 下载见release/Download see release
 
-## ___请一定要先读完整个readme再下载安装！！___ 特别重点：本efi从1.3开始使用了官方加密，请使用镜像自带EFI安装系统，并在安装好系统后再配置使用此EFI，并参照[此教程](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/post-install/post-install/security#vault)重新加密引导
+## ___请一定要先读完整个readme再下载安装！！___ 特别重点：此efi从1.3开始使用了官方加密，请使用镜像自带EFI安装系统，并在安装好系统后再配置使用此EFI，并参照[此教程](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/post-install/post-install/security#vault)重新加密引导
 
 ### 测试过的可用系统: 
 1. MacOS 10.15.3
@@ -48,8 +48,6 @@ Realtek ALCS1220A: Yes
 ### 因为使用了oc引导win，所以机器信息里的systemuuid需要使用主板原来的uuid，具体查看方法：[查看SystemUUID](https://blog.csdn.net/fksec/article/details/45396119)
 
 此EFI包含intel无线网卡蓝牙部分的kext驱动。
-
-另: 使用黑果小兵的镜像安装时, 也别忘了将EFI替换成这个哟。
 
 # 参考链接
 [使用OpenCore引导黑苹果 -xjn](https://blog.xjn819.com/?p=543)  
