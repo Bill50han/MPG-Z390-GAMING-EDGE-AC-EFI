@@ -1,8 +1,8 @@
 # MPG-Z390-GAMING-EDGE-AC-EFI
-A hackintosh EFI for MSI MPG Z390 GAMING EDGE AC (use opencore).
-![GitHub forks](https://img.shields.io/github/forks/Billraozihan/MPG-Z390-GAMING-EDGE-AC-EFI?style=social)
-![GitHub stars](https://img.shields.io/github/stars/Billraozihan/MPG-Z390-GAMING-EDGE-AC-EFI?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/Billraozihan/MPG-Z390-GAMING-EDGE-AC-EFI?style=social)
+A hackintosh EFI for MSI MPG Z390 GAMING EDGE AC (use opencore).  
+![](https://img.shields.io/github/forks/Billraozihan/MPG-Z390-GAMING-EDGE-AC-EFI?style=social)
+![](https://img.shields.io/github/stars/Billraozihan/MPG-Z390-GAMING-EDGE-AC-EFI?style=social)
+![](https://img.shields.io/github/watchers/Billraozihan/MPG-Z390-GAMING-EDGE-AC-EFI?style=social)
 
 ![](https://img.shields.io/github/v/release/Billraozihan/MPG-Z390-GAMING-EDGE-AC-EFI)
 下载见release/Download see release
