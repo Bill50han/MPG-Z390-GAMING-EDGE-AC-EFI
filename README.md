@@ -1,6 +1,8 @@
 # MPG-Z390-GAMING-EDGE-AC-EFI
 A hackintosh EFI for MSI MPG Z390 GAMING EDGE AC (use opencore).
 
+![](https://img.shields.io/github/v/release/Billraozihan/MPG-Z390-GAMING-EDGE-AC-EFI)
+
 下载见release/Download see release
 
 ## ___请一定要先读完整个readme再下载安装！！___ 特别重点：此efi从1.3开始使用了官方加密，请使用镜像自带EFI安装系统，并在安装好系统后再配置使用此EFI，并参照[此教程](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/post-install/post-install/security#vault)重新加密引导。加密所需文件[见此](https://github.com/williambj1/OpenCore-Factory/releases)（下载后解压出的Utilities文件夹，加密请在macOS下进行）
