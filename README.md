@@ -30,7 +30,7 @@ Realtek ALCS1220A: Yes
 # BIOS
 - CFG Lock -> 禁止/Disable (高级模式 -> OC -> OC操作模式: 改为专业 -> CPU特征 -> CFG锁定)
 - ErP Ready -> 允许/Enable
-- CSM -> 禁止/Disabled
+- CSM -> 禁止/Disabled（高级模式 -> settings -> 高级 -> Windows操作系统的配置 -> Windows 10 WHQL支持 选择允许就等于关闭csm）
 - XHCI Hand-off -> 允许/Enabled
 - 安全启动/security boot -> 禁止/Disabled
 - 如果你也和我一样，有一张不能驱动的n卡插在主板上，那么请在切换系统时更改"设置第一显卡"。使用MacOS时用核显，选择IGD;使用win时用独显，选择PEG。如果你有更好的方法，请一定通过Issues告诉我，因为我这个方法挺麻烦的。😂 ~~另:选择PEG并打开核心显卡多显示器在我这并不好用，因为这项设置在我这台电脑上只在windows下生效。~~
