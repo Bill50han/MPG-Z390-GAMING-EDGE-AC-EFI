@@ -49,6 +49,8 @@ Realtek ALCS1220A: Yes
 
 ### ~~此EFI默认不检测除MacOS外的任何系统的引导程序，也就是它不能引导windows。我也不建议用opencore引导windows。请使用bios自带的F11或者第三方引导程序rEFInd等切换系统。~~ OC引导win10真香😂。具体方法请看[1](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1851361&highlight=oc%2Bwin)，2：xjn大佬博客那篇文章3.2.2章节的“打开config，我们把win的引导路径添加到misc—-entries······”以下的内容。（“1”里面的“硬盘id”就是DG分区软件里的“分区GUID”，所以不用完全按照xjn的步骤走）
 
+### 双硬盘请参考<http://bbs.pcbeta.com/viewthread-1858307-1-1.html>
+
 ### 因为使用了oc引导win，所以机器信息里的systemuuid需要使用主板原来的uuid，具体查看方法：[查看SystemUUID](https://blog.csdn.net/fksec/article/details/45396119)
 
 此EFI包含intel无线网卡蓝牙部分的kext驱动。
